@@ -29,12 +29,37 @@ def selecttionSort(list_in):
     return list_out
 
 
-print("--------------")
-print("Selection sort")
-print("--------------")
-list_in = generate_list_randoms()
-start_time = time.clock()
-result = selecttionSort(list_in)
-print(result)
-end_time = time.clock()
-print("Time elapsed = ", end_time - start_time)
+def quicksort(list_in):
+    if len(list_in) < 1:
+        return list_in
+    else:
+        n = int(len(list_in) / 2)
+        pivot = list_in[n]
+        less = [i for i in list_in[1:] if i <= pivot]
+        greater = [i for i in list_in[1:] if i > pivot]
+        return quicksort(less) + [pivot] + quicksort(greater)
+
+
+if __name__ == "__main__":
+
+    print("--------------")
+    print("Selection sort")
+    print("--------------")
+    list_in = generate_list_randoms()
+    start_time = time.clock()
+    result = selecttionSort(list_in)
+    print(result)
+    end_time = time.clock()
+    print("Time elapsed = ", end_time - start_time)
+    print("")
+
+    print("--------------")
+    print("Quick sort")
+    print("--------------")
+    list_in = generate_list_randoms()
+    start_time = time.clock()
+    result = quicksort(list_in)
+    print(result)
+    end_time = time.clock()
+    print("Time elapsed = ", end_time - start_time)
+    print("")
