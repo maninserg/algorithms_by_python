@@ -11,7 +11,7 @@ def generate_list_randoms():
     return list_randoms
 
 
-def forward_search(list_search, n):
+def brute_force_search(list_search, n):
     i = 0
     for i in range(len(list_search)):
         if n == list_search[i]:
@@ -42,16 +42,16 @@ num_inp = int(num_inp)
 list_num = generate_list_randoms()
 
 print("")
-print("--------------")
-print("Forward search")
-print("--------------")
+print("------------------")
+print("Brute-force search")
+print("------------------")
 start_time = time.clock()
-result = forward_search(list_num, num_inp)
+result = brute_force_search(list_num, num_inp)
 print(result)
 end_time = time.clock()
 print("Time elapsed = ", end_time - start_time)
-
 print("")
+
 print("--------------")
 print("Binary search")
 print("--------------")
@@ -60,3 +60,4 @@ result = binary_search(list_num, num_inp)
 print(result)
 end_time = time.clock()
 print("Time elapsed = ", end_time - start_time)
+print("")
