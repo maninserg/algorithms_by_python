@@ -15,7 +15,7 @@
 
 <hr>
 
-**Figures**
+**BigO**
 
 <p align="center">
   <img width = "800" src="screenshots/bigO.jpg"/>
