@@ -19,3 +19,8 @@
   <img width = "800" src="screenshots/bigO.jpg"/>
 <p align="center"><b>Some cases of BigO</b><p align="center">
 </p>
+
+<p align="center">
+  <img width = "800" src="screenshots/bigO_examples.jpg"/>
+<p align="center"><b>Examples of the BigO</b><p align="center">
+</p>
