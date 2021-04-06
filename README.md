@@ -21,6 +21,6 @@
 </p>
 
 <p align="center">
-  <img width = "800" src="screenshots/bigO_examples.jpg"/>
+  <img width = "500" src="screenshots/bigO_examples.jpg"/>
 <p align="center"><b>Examples of the BigO</b><p align="center">
 </p>
