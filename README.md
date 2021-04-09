@@ -13,7 +13,7 @@
 
 - recursion.py -- simple examples of the recursion
 
-- hash.py -- relizations hash by python's dictionary 
+- hash.py -- relization hash by python's dictionary 
 
 <hr>
 
