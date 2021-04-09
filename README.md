@@ -11,7 +11,9 @@
 
 - sort_by_select_VC_quick_sort.py -- realizations of the selection sort and the quick sort and the compare of their speeds
 
-- recursion.py -- simple examples of the recursion 
+- recursion.py -- simple examples of the recursion
+
+- hash.py -- relizations hash by python's dictionary 
 
 <hr>
 
