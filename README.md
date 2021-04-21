@@ -1,11 +1,11 @@
 # algorithms_by_python
 
+Algorithms by Python
 
-**About:** Algorithms by Python
 
-<hr>
+## Description
 
-**Description:** Different algorithms
+Different algorithms:
 
 - brute_force_search_VC_binary_search.py -- realizations of the brute force search and the binary search and the compare of their speeds
 
@@ -15,9 +15,8 @@
 
 - hash.py -- relization hash by python's dictionary 
 
-<hr>
 
-**BigO**
+## BigO
 
 <p align="center">
   <img width = "800" src="screenshots/bigO.jpg"/>
