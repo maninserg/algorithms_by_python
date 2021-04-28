@@ -7,13 +7,13 @@ Algorithms by Python
 
 Different algorithms:
 
-- brute_force_search_VC_binary_search.py -- realizations of the brute force search and the binary search and the compare of their speeds
+- **brute_force_search_VC_binary_search.py** - realizations of the brute force search and the binary search and the compare of their speeds
 
-- sort_by_select_VC_quick_sort.py -- realizations of the selection sort and the quick sort and the compare of their speeds
+- **sort_by_select_VC_quick_sort.py** - realizations of the selection sort and the quick sort and the compare of their speeds
 
-- recursion.py -- simple examples of the recursion
+- **recursion.py** - simple examples of the recursion
 
-- hash.py -- relization hash by python's dictionary 
+- **hash.py** - relization hash by python's dictionary 
 
 
 ## BigO
